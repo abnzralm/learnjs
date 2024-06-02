@@ -1,14 +1,13 @@
-let saveEl = document.getElementById("save-el")
-let countEl = document.getElementById("count-el")
-let count = 0
+let savedEntriesEl = document.getElementById("saved-entries");
+let counterDisplayEl = document.getElementById("counter-display");
+let passengerCount = 0;
 
-function increment() {
-    count += 1
-    countEl.textContent = count
+function incrementCounter() {
+    passengerCount += 1;
+    counterDisplayEl.textContent = passengerCount;
 }
 
-function save() {
-    let countStr = count + " - "
-    saveEl.textContent += countStr
+function saveCounter() {
+    let passengerCountStr = passengerCount + " - ";
+    savedEntriesEl.textContent += passengerCountStr;
 }
-
