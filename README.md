@@ -1,4 +1,3 @@
-```markdown
 # JavaScript Projects
 
 This repository contains three JavaScript projects completed by Abenezer Alemayehu as part of the directED JavaScript assignment. Below is a brief overview of each project.
@@ -47,4 +46,3 @@ This project is a Chrome Extension that enhances browser functionality. The spec
 ## Author
 
 These projects were created by **Abenezer Alemayehu** as part of the directED JavaScript assignment.
-```
